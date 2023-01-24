@@ -1,0 +1,3 @@
+[submodule "ALabelStudio/third_party/spdlog"]
+	path = ALabelStudio/third_party/spdlog
+	url = https://github.com/gabime/spdlog.git
