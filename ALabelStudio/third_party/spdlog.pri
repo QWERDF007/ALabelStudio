@@ -1,0 +1,5 @@
+# 定义编译时日志宏 SPDLOG_XXX 的级别, 若格式定义了 %@ 或者 %g:%#, 输出 __FILE__:__LINE__
+DEFINES += SPDLOG_ACTIVE_LEVEL=1 # SPDLOG_LEVEL_DEBUG
+#DEFINES += SPDLOG_ACTIVE_LEVEL=2 # SPDLOG_LEVEL_INFO
+
+INCLUDEPATH += $$PWD/spdlog/include
