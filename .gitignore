@@ -245,3 +245,6 @@ cython_debug/
 node_modules
 package.json
 package-lock.json
+
+# 3rdparty
+*/3rdparty/opencv/

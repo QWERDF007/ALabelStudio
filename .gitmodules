@@ -1,6 +1,4 @@
-[submodule "ALabelStudio/3rdparty/spdlog"]
-	path = ALabelStudio/3rdparty/spdlog
-	url = https://github.com/gabime/spdlog.git
+
 [submodule "ALabelStudio/Widgets"]
 	path = ALabelStudio/Widgets
 	url = https://github.com/QWERDF007/Widgets.git
