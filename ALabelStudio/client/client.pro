@@ -57,8 +57,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 INCLUDEPATH += \
-    $$PWD/../utils \
-    $$PWD/../widgets
+    $$PWD/../utils
 
 win32 {
 
@@ -72,14 +71,12 @@ win32-msvc {
 
     CONFIG(release, debug|release) {
         LIBS += \
-            -L$$PWD/../build/windows/ \
-            -lwidgets
+            -L$$PWD/../build/windows/
     }
 
     CONFIG(debug, debug|release) {
         LIBS += \
-            -L$$PWD/../build/windows/ \
-            -lwidgetsd
+            -L$$PWD/../build/windows/
     }
 
 
@@ -92,4 +89,4 @@ RC_ICONS = ../icons/logo.ico
 RESOURCES += \
     ../icons/icons.qrc
 
-include($$PWD/../third_party/third_party.pri)
+include($$PWD/../3rdparty/3rdparty.pri)
